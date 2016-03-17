@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1B855061C9939C00087423F /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B855051C9939C00087423F /* Download.swift */; settings = {ASSET_TAGS = (); }; };
+		F1C728971C9A373F0094AB7D /* MutiDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C728961C9A373F0094AB7D /* MutiDownload.swift */; settings = {ASSET_TAGS = (); }; };
+		F1FB3D6D1C95A13800EAD0F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FB3D6C1C95A13800EAD0F9 /* AppDelegate.swift */; };
+		F1FB3D6F1C95A13800EAD0F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FB3D6E1C95A13800EAD0F9 /* ViewController.swift */; };
+		F1FB3D711C95A13800EAD0F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FB3D701C95A13800EAD0F9 /* Assets.xcassets */; };
+		F1FB3D741C95A13800EAD0F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FB3D721C95A13800EAD0F9 /* Main.storyboard */; };
+		F1FB3D7F1C95A13800EAD0F9 /* MutiThreadDownloadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FB3D7E1C95A13800EAD0F9 /* MutiThreadDownloadTests.swift */; };
+		F1FB3D8A1C95A13800EAD0F9 /* MutiThreadDownloadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FB3D891C95A13800EAD0F9 /* MutiThreadDownloadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1FB3D7B1C95A13800EAD0F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1FB3D611C95A13800EAD0F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1FB3D681C95A13800EAD0F9;
+			remoteInfo = MutiThreadDownload;
+		};
+		F1FB3D861C95A13800EAD0F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1FB3D611C95A13800EAD0F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1FB3D681C95A13800EAD0F9;
+			remoteInfo = MutiThreadDownload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1B855051C9939C00087423F /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		F1C728961C9A373F0094AB7D /* MutiDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutiDownload.swift; sourceTree = "<group>"; };
+		F1FB3D691C95A13800EAD0F9 /* MutiThreadDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutiThreadDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FB3D6C1C95A13800EAD0F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1FB3D6E1C95A13800EAD0F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1FB3D701C95A13800EAD0F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1FB3D731C95A13800EAD0F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1FB3D751C95A13800EAD0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1FB3D7A1C95A13800EAD0F9 /* MutiThreadDownloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutiThreadDownloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FB3D7E1C95A13800EAD0F9 /* MutiThreadDownloadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutiThreadDownloadTests.swift; sourceTree = "<group>"; };
+		F1FB3D801C95A13800EAD0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1FB3D851C95A13800EAD0F9 /* MutiThreadDownloadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutiThreadDownloadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FB3D891C95A13800EAD0F9 /* MutiThreadDownloadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutiThreadDownloadUITests.swift; sourceTree = "<group>"; };
+		F1FB3D8B1C95A13800EAD0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1FB3D661C95A13800EAD0F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FB3D771C95A13800EAD0F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FB3D821C95A13800EAD0F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1FB3D601C95A13800EAD0F9 = {
+			isa = PBXGroup;
+			children = (
+				F1FB3D6B1C95A13800EAD0F9 /* MutiThreadDownload */,
+				F1FB3D7D1C95A13800EAD0F9 /* MutiThreadDownloadTests */,
+				F1FB3D881C95A13800EAD0F9 /* MutiThreadDownloadUITests */,
+				F1FB3D6A1C95A13800EAD0F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1FB3D6A1C95A13800EAD0F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1FB3D691C95A13800EAD0F9 /* MutiThreadDownload.app */,
+				F1FB3D7A1C95A13800EAD0F9 /* MutiThreadDownloadTests.xctest */,
+				F1FB3D851C95A13800EAD0F9 /* MutiThreadDownloadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1FB3D6B1C95A13800EAD0F9 /* MutiThreadDownload */ = {
+			isa = PBXGroup;
+			children = (
+				F1FB3D6C1C95A13800EAD0F9 /* AppDelegate.swift */,
+				F1FB3D6E1C95A13800EAD0F9 /* ViewController.swift */,
+				F1B855051C9939C00087423F /* Download.swift */,
+				F1C728961C9A373F0094AB7D /* MutiDownload.swift */,
+				F1FB3D701C95A13800EAD0F9 /* Assets.xcassets */,
+				F1FB3D721C95A13800EAD0F9 /* Main.storyboard */,
+				F1FB3D751C95A13800EAD0F9 /* Info.plist */,
+			);
+			path = MutiThreadDownload;
+			sourceTree = "<group>";
+		};
+		F1FB3D7D1C95A13800EAD0F9 /* MutiThreadDownloadTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1FB3D7E1C95A13800EAD0F9 /* MutiThreadDownloadTests.swift */,
+				F1FB3D801C95A13800EAD0F9 /* Info.plist */,
+			);
+			path = MutiThreadDownloadTests;
+			sourceTree = "<group>";
+		};
+		F1FB3D881C95A13800EAD0F9 /* MutiThreadDownloadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1FB3D891C95A13800EAD0F9 /* MutiThreadDownloadUITests.swift */,
+				F1FB3D8B1C95A13800EAD0F9 /* Info.plist */,
+			);
+			path = MutiThreadDownloadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1FB3D681C95A13800EAD0F9 /* MutiThreadDownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FB3D8E1C95A13800EAD0F9 /* Build configuration list for PBXNativeTarget "MutiThreadDownload" */;
+			buildPhases = (
+				F1FB3D651C95A13800EAD0F9 /* Sources */,
+				F1FB3D661C95A13800EAD0F9 /* Frameworks */,
+				F1FB3D671C95A13800EAD0F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MutiThreadDownload;
+			productName = MutiThreadDownload;
+			productReference = F1FB3D691C95A13800EAD0F9 /* MutiThreadDownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1FB3D791C95A13800EAD0F9 /* MutiThreadDownloadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FB3D911C95A13800EAD0F9 /* Build configuration list for PBXNativeTarget "MutiThreadDownloadTests" */;
+			buildPhases = (
+				F1FB3D761C95A13800EAD0F9 /* Sources */,
+				F1FB3D771C95A13800EAD0F9 /* Frameworks */,
+				F1FB3D781C95A13800EAD0F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1FB3D7C1C95A13800EAD0F9 /* PBXTargetDependency */,
+			);
+			name = MutiThreadDownloadTests;
+			productName = MutiThreadDownloadTests;
+			productReference = F1FB3D7A1C95A13800EAD0F9 /* MutiThreadDownloadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1FB3D841C95A13800EAD0F9 /* MutiThreadDownloadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FB3D941C95A13800EAD0F9 /* Build configuration list for PBXNativeTarget "MutiThreadDownloadUITests" */;
+			buildPhases = (
+				F1FB3D811C95A13800EAD0F9 /* Sources */,
+				F1FB3D821C95A13800EAD0F9 /* Frameworks */,
+				F1FB3D831C95A13800EAD0F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1FB3D871C95A13800EAD0F9 /* PBXTargetDependency */,
+			);
+			name = MutiThreadDownloadUITests;
+			productName = MutiThreadDownloadUITests;
+			productReference = F1FB3D851C95A13800EAD0F9 /* MutiThreadDownloadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1FB3D611C95A13800EAD0F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "许文杰";
+				TargetAttributes = {
+					F1FB3D681C95A13800EAD0F9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F1FB3D791C95A13800EAD0F9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F1FB3D681C95A13800EAD0F9;
+					};
+					F1FB3D841C95A13800EAD0F9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F1FB3D681C95A13800EAD0F9;
+					};
+				};
+			};
+			buildConfigurationList = F1FB3D641C95A13800EAD0F9 /* Build configuration list for PBXProject "MutiThreadDownload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1FB3D601C95A13800EAD0F9;
+			productRefGroup = F1FB3D6A1C95A13800EAD0F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1FB3D681C95A13800EAD0F9 /* MutiThreadDownload */,
+				F1FB3D791C95A13800EAD0F9 /* MutiThreadDownloadTests */,
+				F1FB3D841C95A13800EAD0F9 /* MutiThreadDownloadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1FB3D671C95A13800EAD0F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FB3D711C95A13800EAD0F9 /* Assets.xcassets in Resources */,
+				F1FB3D741C95A13800EAD0F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FB3D781C95A13800EAD0F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FB3D831C95A13800EAD0F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1FB3D651C95A13800EAD0F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C728971C9A373F0094AB7D /* MutiDownload.swift in Sources */,
+				F1B855061C9939C00087423F /* Download.swift in Sources */,
+				F1FB3D6F1C95A13800EAD0F9 /* ViewController.swift in Sources */,
+				F1FB3D6D1C95A13800EAD0F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FB3D761C95A13800EAD0F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FB3D7F1C95A13800EAD0F9 /* MutiThreadDownloadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FB3D811C95A13800EAD0F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FB3D8A1C95A13800EAD0F9 /* MutiThreadDownloadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1FB3D7C1C95A13800EAD0F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1FB3D681C95A13800EAD0F9 /* MutiThreadDownload */;
+			targetProxy = F1FB3D7B1C95A13800EAD0F9 /* PBXContainerItemProxy */;
+		};
+		F1FB3D871C95A13800EAD0F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1FB3D681C95A13800EAD0F9 /* MutiThreadDownload */;
+			targetProxy = F1FB3D861C95A13800EAD0F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1FB3D721C95A13800EAD0F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1FB3D731C95A13800EAD0F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1FB3D8C1C95A13800EAD0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1FB3D8D1C95A13800EAD0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F1FB3D8F1C95A13800EAD0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MutiThreadDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xwjack.MutiThreadDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1FB3D901C95A13800EAD0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MutiThreadDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xwjack.MutiThreadDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F1FB3D921C95A13800EAD0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MutiThreadDownloadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xwjack.MutiThreadDownloadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MutiThreadDownload.app/Contents/MacOS/MutiThreadDownload";
+			};
+			name = Debug;
+		};
+		F1FB3D931C95A13800EAD0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MutiThreadDownloadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xwjack.MutiThreadDownloadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MutiThreadDownload.app/Contents/MacOS/MutiThreadDownload";
+			};
+			name = Release;
+		};
+		F1FB3D951C95A13800EAD0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MutiThreadDownloadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xwjack.MutiThreadDownloadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MutiThreadDownload;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F1FB3D961C95A13800EAD0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MutiThreadDownloadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xwjack.MutiThreadDownloadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MutiThreadDownload;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1FB3D641C95A13800EAD0F9 /* Build configuration list for PBXProject "MutiThreadDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FB3D8C1C95A13800EAD0F9 /* Debug */,
+				F1FB3D8D1C95A13800EAD0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FB3D8E1C95A13800EAD0F9 /* Build configuration list for PBXNativeTarget "MutiThreadDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FB3D8F1C95A13800EAD0F9 /* Debug */,
+				F1FB3D901C95A13800EAD0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FB3D911C95A13800EAD0F9 /* Build configuration list for PBXNativeTarget "MutiThreadDownloadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FB3D921C95A13800EAD0F9 /* Debug */,
+				F1FB3D931C95A13800EAD0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FB3D941C95A13800EAD0F9 /* Build configuration list for PBXNativeTarget "MutiThreadDownloadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FB3D951C95A13800EAD0F9 /* Debug */,
+				F1FB3D961C95A13800EAD0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1FB3D611C95A13800EAD0F9 /* Project object */;
+}
